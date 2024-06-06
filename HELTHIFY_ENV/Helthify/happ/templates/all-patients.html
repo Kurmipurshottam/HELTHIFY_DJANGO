@@ -69,10 +69,10 @@
                                                 <a href="{% url "rejected" i.pk %}"><button class="badge badge-danger">Cancle</button></a>
                                             </td>
                                             {% elif i.appointment_status_approved == True %}
-                                            <td><span class="badge badge-info">approved</span> </td>
+                                            <td><span class="badge badge-success">approved</span> </td>
 
                                             {% elif i.appointment_status_cancle == True %}
-                                            <td><span class="badge badge-info">Cancer</span></td>
+                                            <td><span class="badge badge-danger">Cancled</span></td>
                                             {% endif %}
                                      
                                         </tr>

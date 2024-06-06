@@ -33,7 +33,6 @@
                             <div class="profile-image"> <img src="{{request.session.picture}}" alt="" style="height: 200px; width: 200px;"> </div>
                             <div>
                                 <h4 class="m-b-0"><strong>{{user.f_name}}</strong><br> {{user.l_name}}</h4>
-                                
                             </div>
                             <div>
                                 <form action="{% url 'Change_Picture' %}" method="post" enctype="multipart/form-data" style="display: inline-block;">
